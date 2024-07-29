@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+
+#trailer-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-family: 'Allerta', sans-serif;
+}
+
+h1 {
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+   
+}
+
+.trailer {
+    width: 40%;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+
+.sinopse {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #3c3c3c;
+    margin-left: 30px;
+    margin-right: 50px;
+}
+
+.description {
+    width: 100%;
+    text-align: justify;
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.button {
+    width: 180px;
+    height: 50px;
+    background-color: #28647f;
+    color: #fff;
+    padding: 8px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+    font-weight: 100;
+}
+
+.button:hover {
+    background-color: #3c3c3c;
+    color: #e0e0f8;
+   
+    border: none;
+}

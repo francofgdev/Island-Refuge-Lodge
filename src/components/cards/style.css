@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+
+h1 {
+    color: #28647f;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Allerta', sans-serif;
+    margin-bottom: 50px;
+}
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 30px;
+}
+
+.card {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.banner1 {
+    background-image: url('../../assets/images/img_9210.jpg');
+}
+
+.banner2 {
+    background-image: url('../../assets//images/home4.jpg');
+}
+
+.banner3 {
+    background-image: url('../../assets//images/views___5_.jpg');
+}
+

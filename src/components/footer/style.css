@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+
+* {
+    font-family: 'Allerta', sans-serif;
+}
+
+footer {
+    height: 0;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+span {
+    color: #28647f;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+footer .media-footer .link {
+    padding: 10px;
+    
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+

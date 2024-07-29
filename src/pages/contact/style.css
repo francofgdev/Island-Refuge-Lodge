@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../assets/images/_dsc3825.jpg');
+    background-size: cover;
+    max-width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    margin-top: 100px;    
+    width: 450px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+input {
+    background-color: #e0e0f8;
+    border-radius: 8px;
+    border: 1px solid #28647f;
+    height: 35px;
+}
+
+textarea {
+    background-color: #e0e0f8;
+    border-radius: 8px;
+    border: 1px solid #28647f;
+}
+
+input:focus, textarea:focus {
+    background: #fff;
+}
+
+.first {
+    margin-top: 0;
+}
+
+h2 {
+    margin: 0;
+    color: #fff;
+    text-align: center;
+    font-family: 'Allerta', sans-serif;
+    font-size: 40px;
+}
+
+button {
+    list-style: none;
+    border: none;
+    color: #fff;
+    background-color: #28647f;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 19px;
+    transition: 0.5s;
+    height: 40px;
+    border: 1px solid #fff;
+}
+
+button:hover {
+    color: #fff;
+    background-color: transparent;    
+}

@@ -1,0 +1,55 @@
+--- REACT ---
+
+
+-- INTRODUÇÃO --
+
+-> Framework de SPA --> ferramenta de trabalho
+-> React --> framework de javaScript
+
+-> Node --> roda o javascript na nossa máquina
+-> javascript por padrão roda apenas no navegador, engine... responsável por entender e rodar o JS
+
+-> node_modules --> serve basicamente para armazenar os pacotes externos da nossa aplicação, ou seja, tudo que vamos instalar de funcionalidade já pré-pronta em nossa aplicação.
+
+-> public --> vai conter os nossos arquivos estáticos, como o index.html, que vai ser o nosso único arquivo de html no no projeto;
+
+-> src --> é basicamente onde vamos escrever todo o nosso código, tudo que vamos precisar dentro da nossa aplicação está aqui dentro;
+
+-> .gitignore --> serve para ignorar arquivos e pastas no nosso versionamento;
+
+-> package-lock.json --> relata a versão de cada pacote instalado em nosso projeto
+
+-> package.json --> tem diversas funcionalidades, mas as principais são também relatar os pacotes 
+que temos instalados na nossa aplicação; também responsável pelo armazenameto do react-scripts. 
+O react-scripts, basicamente, é uma série de comandos que vã rodar uma funcionalidade pra gente. 
+Ele já vem com alguns scripts por padrão dentro do package.json.
+
+-> NPM (Node Package Manager) - instala e manipula pacotes em nossa máquina... 
+pacotes são códigos externos que já entregam uma funcionalidade pra gente
+
+-> NPX --> create-react-app
+
+
+-- Webpack & Babel --
+
+-> App.js -> foi criada uma função chamada"function App" e ela está retornando o código abaixo: div className..., que parece um html mas não é... o nome correto é jsx... e no final ela está exportando essa função App... 
+Lá dentro do index.js a gente está importando o App from './App';
+
+-> O React é baseado em componentezação. Em App.js foi criado o componente ("function App(){"), 
+exportou de maneira default esse componente usando o "export default App;" e lá  dentro de index.js 
+a gente importou esse componente "import App from'./App'; E para fazer esse componente ser visualizado 
+a gente  chama ele assim "<App />' como se fosse uma tag do html 
+
+Pra que serve o Webpack?
+
+-> Agrupa o código de determinada aplicação, isso é chamado de bundle;
+
+-> Auxilia na separação do nosso código em divesrsos arquivos;
+
+-> trabalha em conjunto com o NPM na importação de códigos dos nossos pacotes externos.
+
+Pra que serve p Babel?
+
+-> Transformar o código js em código antigo. 
+
+-> Transformar o JSX (aquele código idêntico ao html) em funções React. 

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+
+.title-photos {
+    color: #28647f;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Allerta', sans-serif;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+
+.cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.banner1 {
+    background-image: url('../../assets/images/bedrooms.jpg');
+}
+
+.banner2 {
+    background-image: url('../../assets//images//img_1047-1.jpg');
+}
+
+.banner3 {
+    background-image: url('../../assets//images//img_9210.jpg');
+}
+
+.banner4 {
+    background-image: url('../../assets//images/img_1123-1.jpg');
+}
+
+.banner5 {
+    background-image: url('../../assets/images/feta.jpg');
+}
+
+.banner6 {
+    background-image: url('../../assets/images/img_1697-1.jpg');
+}
+
+.banner7 {
+    background-image: url('../../assets/images/_dsc3946.jpg');
+}
+
+.banner8 {
+    background-image: url('../../assets/images/img-6965.jpg');
+}
+
+.banner9 {
+    background-image: url('../../assets/images/views___5_.jpg');
+}

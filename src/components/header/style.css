@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Allerta&display=swap');
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* position: fixed;
+    width: 100%;
+    top: 0; */
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+#logo {
+    width: 80px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: #3c3c3c;
+    color: #28647f;
+    cursor: pointer;
+    font-size: 19px;
+    transition: 0.5s;
+    font-family: 'Allerta', sans-serif;    
+    margin-top: 20px;
+}
+
+li:hover {
+    color: #28647f;
+    color: #3c3c3c;
+}
+
+.link {
+    text-decoration: none;
+}
+

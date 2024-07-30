@@ -15,8 +15,8 @@ function Contact() {
                     <input className="first" name="name" type="text" placeholder="Full name"/>
                     <input name="phone" type="number" placeholder="Cell phone" required />
                     <input name="email" type="email" placeholder="E-mail"/>
-                    <textarea name="mensagem" rows={4} placeholder="Enter your arrival and departure date and/or your questions and wait for us to contact you." required/>
-                    <button type="button">Check availability</button>
+                    <textarea name="mensagem" rows={4} placeholder="Enter your ckin and ckout date, or your questions and wait for us to contact you." required/>
+                    <button type="button">Contact us</button>
                 </form>
             </div>
 

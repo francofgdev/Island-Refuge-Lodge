@@ -25,10 +25,11 @@ header {
 
 nav {
     width: 60%;
+    
 }
 
 ul {
-    width: 80%;
+    /* width: 80%; => Sem a media-header  */ 
     display: flex;
     justify-content: space-between;
 }
@@ -41,7 +42,7 @@ li {
     font-size: 19px;
     transition: 0.5s;
     font-family: 'Allerta', sans-serif;    
-    margin-top: 20px;
+   
 }
 
 li:hover {
@@ -53,3 +54,14 @@ li:hover {
     text-decoration: none;
 }
 
+header .media-header .link {
+    padding: 10px;
+    color: #3c3c3c;
+    color: #28647f; 
+    
+}
+
+header .media-header .link:hover {
+    color: #28647f;
+    color: #3c3c3c;
+}

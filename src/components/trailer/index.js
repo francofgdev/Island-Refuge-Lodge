@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css';
+import './trailer.css';
 import Video from '../../assets/videos/video.mp4'
 import { Link } from "react-router-dom";
 
@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 function Trailer() {
     return (
         <>
-            <h1>Welcome to the Island Refuge Lodge</h1>
+            <h1 className="title-trailer">Welcome to the Island Refuge Lodge</h1>
             <div id="trailer-container">
                 <div class="content">
                     <video controls class="trailer">

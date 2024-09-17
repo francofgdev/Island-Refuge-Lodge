@@ -1,11 +1,11 @@
 import React from "react";
-import './style.css';
+import './banner.css';
 
 
 function Banner() {
     return (
         <>
-            <div id="banner"></div>
+            <div className="banner" id="banner"></div>
         </>
 
     )

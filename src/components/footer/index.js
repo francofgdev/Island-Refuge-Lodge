@@ -44,7 +44,7 @@ function Footer() {
                             </svg>
                         </Link>
                     </div>
-                    <span>All rights reserved &copy;<br />Developed by Franco FG</span>
+                    <span>All rights reserved &copy;<br />Developed by Franco Dev</span>
                 </div>
 
             </footer>

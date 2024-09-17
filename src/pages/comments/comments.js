@@ -19,7 +19,7 @@ function Comments() {
             <Header />
 
             <section className="review" id="review">
-                <h1 className="title">Our clients</h1>
+                <h1 className="title-comments">Our clients</h1>
 
                 <div class="box-container">
                     <div class="box">

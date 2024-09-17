@@ -1,23 +1,23 @@
 import React from "react";
-import './style.css';
+import './cards.css';
 
 function Cards() {
     return (
         <>
-            <div class="title">
+            <div className="title-cards">
                 <h1>THE PERFECT GIFT FOR ALL SEASONS!</h1>
             </div>
-            <div class="cards-container">
+            <div className="cards-container">
 
-                <div class="cards-content">
+                <div className="cards-content">
 
-                    <div class="card banner1">
+                    <div className="card banner1">
                     </div>
 
-                    <div class="card banner2">
+                    <div className="card banner2">
                     </div>
 
-                    <div class="card banner3">
+                    <div className="card banner3">
                     </div>
                 </div>
             </div>

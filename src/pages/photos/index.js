@@ -11,35 +11,35 @@ function Photos() {
             <div class="title">
                 <h1 className="title-photos">Photo Gallery</h1>
             </div>
-            <div class="cards-container">
+            <div class="photo-container">
 
-                <div class="cards-content">
+                <div class="photo-content">
 
-                    <div class="card banner1">
+                    <div className="foto banner_1">
                     </div>
 
-                    <div class="card banner2">
+                    <div className="foto banner_2">
                     </div>
 
-                    <div class="card banner3">
+                    <div class="foto banner_3">
                     </div>
 
-                    <div class="card banner4">
+                    <div class="foto banner_4">
                     </div>
 
-                    <div class="card banner5">
+                    <div class="foto banner_5">
                     </div>
 
-                    <div class="card banner6">
+                    <div class="foto banner_6">
                     </div>
 
-                    <div class="card banner7">
+                    <div class="foto banner_7">
                     </div>
 
-                    <div class="card banner8">
+                    <div class="card banner_8">
                     </div>
 
-                    <div class="card banner9">
+                    <div class="card banner_9">
                     </div>
                 </div>
             </div>

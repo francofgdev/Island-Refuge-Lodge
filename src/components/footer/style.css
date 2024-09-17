@@ -6,30 +6,50 @@
 
 footer {
     height: 0;
-    margin-top: 60px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 0;
-}
-
-span {
-    color: #28647f;
-    text-align: center;
-    font-size: 14px;
-    font-weight: bold;
-
 }
 
 footer .media-footer .link {
     padding: 10px;
-    
+    color: #3c3c3c;
+    color: #28647f;    
+}
+
+footer .media-footer .link:hover {
+    color: #3c3c3c;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}   
+
+.h3-footer {
+    color: #3c3c3c;
+    font-weight: 600;
+}
+
+footer .media-footer2 .link {
+    padding: 10px;
+    color: #3c3c3c;
+    color: #28647f;    
 }
 
 .copyright {
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #3c3c3c;
+    margin: 50px 0;
+}
+
+span {
+    color: #3c3c3c;
+    text-align: center;
+    font-size: 12px;
 }
 

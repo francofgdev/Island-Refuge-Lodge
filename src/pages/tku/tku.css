@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.5s;
+}
+
+#container1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../../assets/images/_dsc3825.jpg');
+    background-size: cover;
+    max-width: 100vw;
+    height: auto;
+    box-sizing: border-box;
+    justify-content: center;
+    height: 100vh;
+    margin-bottom: 0;
+}
+
+#thanks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 8px;
+    width:  610px;
+    height: 150px;
+    opacity: 0.8;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+p {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 10px;
+}

@@ -1,3 +1,4 @@
+
 import React from "react";
 import Header from "../../components/header/header";
 import Banner from "../../components/banner";
@@ -14,7 +15,7 @@ function Home() {
             <Cards />
             <Footer />
         </>
-    )
+    );
 }
 
 export default Home;

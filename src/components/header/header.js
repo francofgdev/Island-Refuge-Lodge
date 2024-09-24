@@ -12,7 +12,7 @@ function Header() {
         <>
             <header>
                 <Link to={'/'}>
-                    <img id="logo" src={Logo} />
+                    <img id="logo" src={Logo} alt="logo da empresa" />
                 </Link>
                 <nav className="menu-desk">
                     <ul>

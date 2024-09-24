@@ -15,7 +15,7 @@ function Thanks() {
                 <div id="container1">
                     <div id="thanks">
                         <h1>Thank you for contacting us!</h1>
-                        <p>We'll get back to you soon! Keep an eye on your e-mail!</p>
+                        <p>We'll get back to you soon!<br/> Keep an eye on your e-mail!</p>
                     </div>
                     <Link to={'/'}>
                         <img id="logo" src={Logo} />

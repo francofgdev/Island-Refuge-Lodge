@@ -7,6 +7,15 @@
     margin-top: 90px;
 }
 
-@media (max-width:800px) {
+@media (max-width:900px) {
+    #banner{
+        background-position: 75% 50%;
+    }
+}
 
+@media (max-width:768px) {
+    #banner{
+        background-image: url('../../assets/images/home4.jpg');
+        background-position: 10% 50%;
+    }
 }

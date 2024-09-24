@@ -1,10 +1,8 @@
+
 import React from "react";
 import './trailer.css';
-import Video from '../../assets/videos/video.mp4'
+import Video from '../../assets/videos/video.mp4';
 import { Link } from "react-router-dom";
-
-
-
 
 function Trailer() {
     return (

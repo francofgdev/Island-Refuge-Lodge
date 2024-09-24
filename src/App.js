@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Fotos from './pages/photos/index';
 import Contact from './pages/contact/contact';
 import Comments from './pages/comments/comments';
+import Thanks from './pages/tku/tku';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/photos' element={<Fotos />}/>
         <Route path='/comments' element={<Comments />}/>        
+        <Route path='/Thanks' element={<Thanks />}/>        
       </Routes>
     </BrowserRouter>
   );

@@ -18,7 +18,7 @@ function Thanks() {
                         <p>We'll get back to you soon!<br/> Keep an eye on your e-mail!</p>
                     </div>
                     <Link to={'/'}>
-                        <img id="logo" src={Logo} />
+                        <img id="logo" src={Logo} alt="logo da empresa"/>
                     </Link>
                 </div>
 
